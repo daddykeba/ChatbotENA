@@ -59,7 +59,7 @@ responses:
   - text: Au revoir et a la prochaine
   - text: ENA vous remercie de votre patience
   utter_ask_rephrase:
-  - text: Désolé, je ne suis pas sûr de comprendre. Pouvez-vous reformuler ou consulter le menu?
+  - text: Désolé, je ne suis pas sûr de bien comprendre. Pouvez-vous reformuler ou consulter le menu?
     buttons:
     - title: Menu
       payload: /get_info
