@@ -189,7 +189,7 @@
 - puis-je [modifier](modifie) mon profil
 - [Corriger](modifie) les informations de mon inscription
 - Je veux changer mon adresse [mail](attributeProfile)
-- Je veux [changer](modifie) ma fiche [profil](profile)
+- Je veux [changer](modifie) ma fiche [profil](profils)
 - comment [accéder](modifie) à mon [profil](profils)
 - [profil](profils)
 - j'aimerais [modifier](modifie) les informations de mon [profil](profils)
@@ -217,6 +217,63 @@
 - [rectifier](modifie)
 - [modifier](modifie) ena
 
+## intent:connexion
+- Je n'arrive pas à me [connecter](connexions) a mon [compte](inscrire)
+- Comment se [connecter](connexions) a mon [compte](inscrire)
+- Se [connecter](connexions) a son [compte](inscrire) ENA
+- [connecter](connexions)
+- [connexion](connexions)
+- Se [connecter](connexions) a son [compte](inscrire) ena
+- Je n'arrive pas à me [connecter](connexions)
+- comment [accéder](inscrire) à mon [compte](inscrire)
+- je n'arrive pas à [accéder](inscrire) à mon [compte](inscrire)
+- j'ai activer mon [compte](inscrire) mais j'y ai pas [accés](inscrire)
+- [connect](connexions) à la plateforme
+
+## intent:confirmMail
+- Je n'ai pas recu le [mail de confirmation](mail)
+- Que faire je ne vois pas le [mail de confirmation](mail)
+- [mail](mail) de confirmation
+- Je ne recois aucun [Mail](mail) apres mon [inscription](inscrire) sur teledac
+- Je ne recois aucun [Mail](mail) apres mon [inscription](inscrire) sur ena
+- Ou es le [mail de confirmation](mail)
+- Je n'ai pas reçu le mail d'[activation](mail)
+- comment faire pour recevoir le [mail de confirmation](mail)
+- Que faire en cas de non réception du [mail de confirmation](mail)
+- TéléDAC n'a pas envoyé mon [mail de confirmation](mail)
+- Je n'ai pas reçu de [mail de confirmation](mail) après mon [inscription](inscrire). Que dois-je faire?
+- comment [activer](mail) mon [compte](inscrire)
+- je me suis inscrit mais je n'ai toujours pas reçu de [mail de confirmation](mail)
+- Aider moi à [activer](mail) mon [compte](inscrire)
+
+## intent:login
+- Que veut dire [login](logins)
+- [login](logins) correspond a quoi
+- Je ne comprends pas le champ [login](logins)
+- Que faut il mettre dans le champ [login](logins)
+- Login ne marche pas
+- C'est quoi [login](logins)
+- Qu'est  qu'on met dans le champ [login](logins)
+- je n'arrive pas à comprendre le [login](logins) ou [identifiant](logins)
+- mon [identifiant](logins) ne marche pas pour accéder à la plateforme
+- qu'est ce qu'on doit mettre dans [login](logins)
+
+## intent:help
+- [Aide](helper)
+- je veux de l'[aide](helper)
+- [Aider](helper) moi
+- Quels sont les autres options?
+- Que faire d'autre
+- [help](helper) me
+- je ne sais pas quoi faire
+- je suis perdu
+- [aidez](helper) moi
+- n'immporte quoi
+- je ne sais pas
+- Qu'es-ce que tu fais?
+- Que sais tu faire?
+- Quels sont les services proposés?
+
 
 ## lookup:inscrire
 data/inscrire.txt
@@ -233,5 +290,11 @@ data/attributeProfile.txt
 ## lookup:modifie
 data/modifie.txt
 
-## lookup:profile
-data/profile.txt
+## lookup:profils
+data/profils.txt
+
+## lookup:connexions
+data/connexions.txt
+
+## lookup:mail
+data/mail.txt

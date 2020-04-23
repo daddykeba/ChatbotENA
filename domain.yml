@@ -13,6 +13,10 @@ intents:
 - requirement_concours
 - profile
 - mdp
+- connexion
+- confirmMail
+- login
+- help
 - out_of_scope:
     triggers: action_hello_world
 
@@ -26,6 +30,9 @@ entities:
 - modifie
 - password
 - attributeProfile
+- mail
+- logins
+- helper
 
 slots:
   concours:
@@ -45,6 +52,14 @@ slots:
   password:
     type: unfeaturized
   attributeProfile:
+    type: unfeaturized
+  connexions:
+    type: unfeaturized
+  mail:
+    type: unfeaturized
+  logins:
+    type: unfeaturized
+  helper:
     type: unfeaturized
 responses:
   utter_iamabot:
@@ -280,6 +295,23 @@ responses:
       payload: /profile{"modifie":"modifier", "profils":"profil"}
     - title: Mot De Passe
       payload: /mdp{"modifie":"modifier", "password":"mot de passe"}
+  utter_connexion_ena:
+  - text: La connexion à ENA requiert l'insertion du login et du mot de passe. Pour
+        vous connecter <a href="https://teledac.sec.gouv.sn/#/connexion/" target="blank">clicker ici</a>
+  utter_mail_ena:
+  - text: ' Merci de vérifier dans vos spams, sinon demander un renvoi de mail de confirmation.'
+  - text: 'Veuillez verifiez dans vos spams sinon demandez un nouvel envoi'
+  - text: " Priez consulter votre messagerie electronique au cas demandez un nouvel\
+      \ envoi  ou bien dans le cas contraire jettez un coup d'oeil a vos spams"
+  utter_ask_login:
+  - text: Login designe votre identifiant de connexion.Il doit contenir au moins 5
+      caracteres. Exemple A.ndiaye20
+  - text: ' Login represente votre pseudonyme '
+  utter_call_back:
+  - text: Que puisse faire pour vous encore?
+    buttons:
+    - title: Menu
+      payload: /get_info
 actions:
 - action_hello_world
 - utter_greet
@@ -314,3 +346,7 @@ actions:
 - utter_menu_modifie
 - utter_profile_ena
 - utter_mdp_ena
+- utter_connexion_ena
+- utter_mail_ena
+- utter_ask_login
+- utter_call_back
