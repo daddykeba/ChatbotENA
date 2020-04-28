@@ -298,3 +298,9 @@ data/connexions.txt
 
 ## lookup:mail
 data/mail.txt
+
+## lookup:pay
+data/pay.txt
+
+## lookup:requirement
+data/requirement.txt

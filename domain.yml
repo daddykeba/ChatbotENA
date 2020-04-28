@@ -17,8 +17,12 @@ intents:
 - confirmMail
 - login
 - help
+- chat
 - out_of_scope:
     triggers: action_hello_world
+- chat/ask_ena
+- chat/ask_who_are_you
+- chat/ask_what_is_ena
 
 entities:
 - inscrire
@@ -33,6 +37,7 @@ entities:
 - mail
 - logins
 - helper
+- requirement
 
 slots:
   concours:
@@ -60,6 +65,8 @@ slots:
   logins:
     type: unfeaturized
   helper:
+    type: unfeaturized
+  requirement:
     type: unfeaturized
 responses:
   utter_iamabot:
@@ -222,16 +229,16 @@ responses:
     image: C:\Users\LENOVO\PycharmProjects\Chatwork\gif\Profess_B.gif
   utter_payDA:
   - text: Les frais de participation au concours direct A s'élevent à <b>10000 Frs</b>  payable
-      en une seule fois.<br/>
+      en une seule fois dans n'importe quel point WARI.<br/>
   utter_payDB:
   - text: Les frais de participation au concours direct B s'élevent à <b>5000 Frs</b>  payable
-      en une seule fois.<br/>
+      en une seule fois dans n'importe quel point WARI.<br/>
   utter_payPA:
   - text: Les frais de participation au concours professionnel A s'élevent à <b>10000
-      Frs</b>  payable en une seule fois.<br/>
+      Frs</b>  payable en une seule fois dans n'importe quel point WARI.<br/>
   utter_payPB:
   - text: Les frais de participation au concours professionnel B s'élevent à <b>10000
-      Frs</b>  payable en une seule fois.<br/>
+      Frs</b>  payable en une seule fois dans n'importe quel point WARI.<br/>
   utter_pay_ena:
   - text: Pouvez-vous faire un choix?
     buttons:
@@ -350,3 +357,4 @@ actions:
 - utter_mail_ena
 - utter_ask_login
 - utter_call_back
+- respond_chat

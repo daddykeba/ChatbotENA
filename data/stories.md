@@ -1,6 +1,11 @@
 ## default story
 * out_of_scope
   - action_hello_world
+  
+## chat     
+* chat
+   - respond_chat
+   - utter_call_back
 
 ## happy path
 * greet
@@ -56,6 +61,262 @@
 * concours_inscriptioon{"inscrire":"inscrire", "open":"créer"}
   - action_inscription_ena
   
+## concours_inscription6
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription7
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription8
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription9
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription10
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription11
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription12
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription13
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription14
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription15
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription16
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription17
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription18
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription19
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription20
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription21
+* greet
+  - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription22
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+
+## concours_inscription23
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription24
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription25
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription26
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+
+## concours_inscription27
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription28
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription29
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## concours_inscription30
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+
+## concours_inscription31
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription32
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription33
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription34
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+
+## concours_inscription35
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"direct b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription36
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel a"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## concours_inscription37
+* greet
+ - utter_greet
+* concours_inscriptioon{"inscrire":"inscrire", "concoursAll":"professionnel b"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
 ## pay  
 * pay_concours{"pay":"frais"}
   - utter_pay_ena
@@ -64,13 +325,13 @@
 * pay_concours{"pay":"frais", "concoursAll":"direct a"}
   - action_pay
   
-## pay5
+## pay2
 * pay_concours{"pay":"frais", "concoursAll":"direct a"}
   - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## pay12
+## pay3
 * greet
   - utter_greet
 * pay_concours{"pay":"frais", "concoursAll":"direct a"}
@@ -78,61 +339,261 @@
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## pay2  
+## pay4  
 * pay_concours{"pay":"frais", "concoursAll":"direct b"}
   - action_pay
   
-## pay6  
+## pay5  
 * pay_concours{"pay":"frais", "concoursAll":"direct b"}
   - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## pay11
+## pay6
 * greet
   - utter_greet  
 * pay_concours{"pay":"frais", "concoursAll":"direct b"}
   - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
-  
-## pay3  
-* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
-  - action_pay
   
 ## pay7  
 * pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
   - action_pay
-* concours_inscriptioon{"inscrire":"inscrire"}
-  - action_inscription_ena
   
-## pay10
-* greet
-  - utter_greet  
+## pay8  
 * pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
-  - action_pay
-* concours_inscriptioon{"inscrire":"inscrire"}
-  - action_inscription_ena
-  
-## pay4 
-* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
-  - action_pay
-  
-## pay8 
-* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
   - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
 ## pay9
 * greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay10 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+  
+## pay11 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay12
+* greet
   - utter_greet 
 * pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
   - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
+  
+## pay13
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay14
+* greet
+  - utter_greet
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay15  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay16
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay17  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay118
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay19 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay20
+* greet
+  - utter_greet 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay21
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay22
+* greet
+  - utter_greet
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay23
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay24
+* greet
+  - utter_greet
+* pay_concours{"pay":"frais", "concoursAll":"direct a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay25  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay26
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay27  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay28
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"direct b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay29  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay30
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay31  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay32
+* greet
+  - utter_greet  
+* pay_concours{"pay":"frais", "concoursAll":"professionnel a"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay33 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay34
+* greet
+  - utter_greet 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+  
+## pay35 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## pay36
+* greet
+  - utter_greet 
+* pay_concours{"pay":"frais", "concoursAll":"professionnel b"}
+  - action_pay
+* requirement_concours{"requirement":"conditions"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
 
-## require-1  
+## require  
 * requirement_concours{"requirement":"conditions"}
   - utter_require_ena
   
@@ -140,13 +601,13 @@
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
   - action_require
   
-## require5
+## require2
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
   - action_require
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## pay12
+## require3
 * greet
   - utter_greet
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
@@ -154,57 +615,257 @@
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## require2  
+## require4  
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
   - action_require
   
-## require6  
+## require5  
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
   - action_require
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
-## require11
+## require6
 * greet
   - utter_greet  
 * requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
   - action_require
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
-  
-## require3  
-* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
-  - action_require
   
 ## require7  
 * requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
   - action_require
-* concours_inscriptioon{"inscrire":"inscrire"}
-  - action_inscription_ena
   
-## require10
-* greet
-  - utter_greet  
+## require8  
 * requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
-  - action_require
-* concours_inscriptioon{"inscrire":"inscrire"}
-  - action_inscription_ena
-  
-## require4 
-* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
-  - action_require
-  
-## require8 
-* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
   - action_require
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
 ## require9
 * greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require10 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+  
+## require11 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require12
+* greet
   - utter_greet 
 * requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
   - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require13
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require14
+* greet
+  - utter_greet
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require15  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require16
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require17  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require18
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require19 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require20
+* greet
+  - utter_greet 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require21
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require22
+* greet
+  - utter_greet
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require23
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require24
+* greet
+  - utter_greet
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require25  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require26
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require27  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require28
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"direct b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require29  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require30
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require31  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require32
+* greet
+  - utter_greet  
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel a"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require33 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require34
+* greet
+  - utter_greet 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+* pay_concours{"pay":"frais"}
+  - action_pay
+  
+## require35 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
+* concours_inscriptioon{"inscrire":"inscrire"}
+  - action_inscription_ena
+  
+## require36
+* greet
+  - utter_greet 
+* requirement_concours{"requirement":"conditions", "concoursAll":"professionnel b"}
+  - action_require
+* pay_concours{"pay":"frais"}
+  - action_pay
 * concours_inscriptioon{"inscrire":"inscrire"}
   - action_inscription_ena
   
