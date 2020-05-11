@@ -1007,6 +1007,19 @@
 ## help3  
 * help
   - utter_concours
-  
+
+
+## admissions
+* admissibilite{"admis": "admissibilité"}
+  - slot{"admis": "admissibilité"}
+  - utter_process_status
+  - admissibilite_form
+  - form{"name": "admissibilite_form"}
+  - slot{"requested_slot": "num"}
+* admissibilite
+  - admissibilite_form
+* admissibilite
+  - admissibilite_form
+  - form{"name": null}  
 
   

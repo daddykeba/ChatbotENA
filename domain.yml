@@ -18,6 +18,8 @@ intents:
 - login
 - help
 - chat
+- admissibilite
+- stop
 - out_of_scope:
     triggers: action_hello_world
 - chat/ask_ena
@@ -38,6 +40,10 @@ entities:
 - logins
 - helper
 - requirement
+- admis
+- num
+- prenom
+- nom
 
 slots:
   concours:
@@ -67,6 +73,14 @@ slots:
   helper:
     type: unfeaturized
   requirement:
+    type: unfeaturized
+  admis:
+    type: unfeaturized
+  num:
+    type: unfeaturized
+  prenom:
+    type: unfeaturized
+  nom:
     type: unfeaturized
 responses:
   utter_iamabot:
@@ -319,6 +333,14 @@ responses:
     buttons:
     - title: Menu
       payload: /get_info
+  utter_process_status:
+  - text: Nous avons besoins de vous identifier pour vous fournir cette information
+  utter_ask_prenom:
+  - text: Merci de bien vouloir nous indiquer votre prenom
+  utter_ask_num:
+  - text: Pour connaitre la situaton d'un dossier, svp indiquer nous le numéro du dossier en question
+  utter_ask_nom:
+  - text: ET enfin donnez nous votre nom
 actions:
 - action_hello_world
 - utter_greet
@@ -358,3 +380,10 @@ actions:
 - utter_ask_login
 - utter_call_back
 - respond_chat
+- utter_ask_num
+- utter_ask_prenom
+- utter_ask_nom
+- utter_process_status
+
+forms:
+- admissibilite_form

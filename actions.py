@@ -15,6 +15,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.forms import FormAction
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import UserUtteranceReverted, SlotSet, SessionStarted, ActionExecuted, EventType
+from dbConnect import getData
 
 class ActionHelloWorld(Action):
 
@@ -160,3 +161,62 @@ class ActionRequire(Action):
         if (concoursAll in prof_b):
             dispatcher.utter_message(template="utter_requirePB")
             return []
+
+
+class AdmissibiliteForm(FormAction):
+
+    def name(self) -> Text:
+        return "admissibilite_form"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+
+        return ["num", "prenom", "nom"]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        return {
+            "num": [self.from_entity(entity="num"), self.from_text(not_intent=["deny","stop","affirm"])],
+            "prenom": [self.from_entity(entity="prenom"), self.from_text(not_intent=["deny", "stop","affirm"])],
+            "nom": [self.from_entity(entity="nom"), self.from_text(not_intent=["deny", "stop","affirm"])],
+        }
+
+
+    def validate_num(self, value: Text, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any], ) -> Dict[Text, Any]:
+
+        query = "select * from flask.admissions where id= "+ value + ";"
+
+        data = getData(query)
+
+        if (len(data)>0):
+            return {"num": value}
+        else:
+            dispatcher.utter_message(text="Votre numéro est invalide")
+            return {"num": None}
+
+
+    def submit(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        ## type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
+        num = tracker.get_slot("num")
+        prenom = tracker.get_slot("prenom")
+        nom = tracker.get_slot("nom")
+
+        query = "select * from flask.admissions where id="+ num + ";"
+
+        data = getData(query)
+        for row in data:
+            centre = row[9]
+            salle = row[10]
+            table = row[11]
+            date = row[8]
+            if(len(centre)>0):
+                response = "{} {}, la date des épreuves d'admissibilité est {}".format(prenom,nom,date)
+                response1 = "votre centre est {} à la salle {} avec comme numéro de table {}".format(centre,salle,table)
+                dispatcher.utter_message(response)
+                dispatcher.utter_message(response1)
+            else:
+                response = "{} {} les informations que vous avez saisi sont incorrectes ".format(prenom, nom)
+                dispatcher.utter_message(response)
+                dispatcher.utter_message(text="Réssayer à nouveau en reprenant votre question")
+
+        return [ SlotSet("num",None),SlotSet("prenom",None),SlotSet("nom",None)]

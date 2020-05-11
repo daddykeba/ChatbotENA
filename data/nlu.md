@@ -274,6 +274,52 @@
 - Que sais tu faire?
 - Quels sont les services proposés?
 
+## intent:admissibilite
+- comment se passe les épreuves [admissibilité](admis) du concours
+- la date des épreuves [admissibilité](admis)
+- Ou auront les les épreuves d'[admissibilité](admis) au concours [direct a](concoursAll) de l'ena
+- les tests [psychotechnique](admis)
+- des informations sur le test [psychotechnique](admis)
+- la date des tests [psychotechnique](admis)
+- je veux avoir des informations par rapport à l'[admissibilité](admis) du concours direct A
+- Donne moi des informations par rapport à l'[admissibilité](admis) du concours professionnel B
+- Parler moi des [admissibilité](admis) 
+
+## intent:stop
+- je veux quitter le formulaire
+- C'est chiant
+- je suis fatiqué
+- j'en peut plus
+- je veut quitter le formulaire
+- ok alors tu ne peux pas m'aider
+- c'est de la merde, tu ne m'aides pas
+- tu ne peux pas m'aider
+- tu ne peux pas m'aider avec ce dont j'ai besoin
+- je suppose que tu ne peux pas m'aider alors
+- ce n'est pas ce que je veux
+- ok, mais ça ne m'aide pas
+- cela ne mène à rien
+- cette conversation n'est pas vraiment utile
+- tu ne peux pas m'aider avec ce que je veux
+- Je pense que tu ne peux pas m'aider
+- hm je ne pense pas que vous puissiez faire ce que je veux
+- Arrêtez
+- arrêter de revenir en arrière
+- obtenez-vous quelque chose?
+- et vous vous appelez entreprise bot? pff
+- et c'est tout?
+- rien d'autre?
+- je m'ennuie
+- C'est nulle
+
+## intent:deny
+- non
+- no
+
+## intent:affirm
+- oui
+- bien sure
+- yes
 
 ## lookup:inscrire
 data/inscrire.txt
@@ -304,3 +350,6 @@ data/pay.txt
 
 ## lookup:requirement
 data/requirement.txt
+
+## lookup:admis
+data/admis.txt
