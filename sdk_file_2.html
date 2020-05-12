@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '659178164934614',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v7.0'
+      });
+    };
+
+        (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js">
+    FB.CustomerChat.showDialog();
+  </script>
+  <div style="width: 190px;">
+    <!-- Page plugin's width will be 190px -->
+    <div class="fb-page"  data-width="420"></div>
+    <div id="fb-root"></div>
+  </div>
+  <div class="fb-customerchat"
+     page_id="659178164934614"
+     logged_in_greeting="How can we help you shop today?"
+     logged_out_greeting="How can we help you shop today?"
+     theme_color="#5c9165">
+</div>
+</body>
+</html>
+
+

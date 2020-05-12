@@ -2,6 +2,9 @@
 # python -m pip install mysql-connector //run this command if you face import error
 # references: https://www.w3schools.com/python/python_mysql_getstarted.asp
 
+# Before used this code  please make suure to install  this python package mysql-connector 
+# Eg: python -m pip install mysql-connector
+
 import mysql.connector
 import traceback
 

@@ -10,7 +10,7 @@
 - A quoi sert ENA?
 - En quoi ENA m'est utile
 
-##intent:chat/ask_ena
+## intent:chat/ask_ena
 - Que signifie ENA
 - C'est quoi ena
 
