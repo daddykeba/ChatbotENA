@@ -110,6 +110,26 @@ responses:
       payload: '/get_info{"concoursAll": "professionnel a"}'
     - title: Concours Professionel B
       payload: '/get_info{"concoursAll": "professionnel b"}'
+    channel: "facebook"
+      custom:
+        attachment:
+          type: template
+          payload:
+          template_type: button
+          text: Try the postback button!
+          buttons:
+          - type: postback
+            title: Concours Direct A
+            payload: '/get_info{"concoursAll": "direct a"}'
+          - type: postback
+            title: Concours Direct B
+            payload: '/get_info{"concoursAll": "direct b"}'
+          - type: postback
+            title:  Concours Professionel A
+            payload: '/get_info{"concoursAll": "professionnel a"}'
+          - type: postback
+            title: Concours Professionel B
+            payload: '/get_info{"concoursAll": "professionnel a"}'
   utter_concoursDA:
   - text: Voici les informations relatives au concours Direct A
     custom:
